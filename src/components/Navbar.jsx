@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useTheme } from '../theme/ThemeProvider'
-import { SunIcon, MoonIcon } from './icons'
 
 export default function Navbar() {
   const { theme, toggle } = useTheme()
